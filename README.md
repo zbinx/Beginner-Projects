@@ -1,2 +1,2 @@
-# dataRecallProg
-Simple beginner data recall program - python3
+# Beginner projects I will be creating whilst reading the book "Automate the Boring Stuff with Python"
+
