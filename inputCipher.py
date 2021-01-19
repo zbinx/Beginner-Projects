@@ -29,10 +29,10 @@ print("\n")
 # the string to be encrypted:
 if userChoice == 1:
 	message = input(("Enter msg to encrypt : "))
-	key = input(("Enter the key to use (0-66) : "))
+	key = input(("Enter the key to use (0-90) : "))
 	key = int(key)
 	mode = 'encrypt'
-	SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456'
+	SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.`~@#$%^&*()_+-=[]|;:<>,/'
 	translated = ''
 
 	for symbol in message:
@@ -56,10 +56,10 @@ if userChoice == 1:
 
 if userChoice == 2:
 	message = input(("Enter msg to Decrypt : "))
-	key = input(("Enter the key to use (0-66) : "))
+	key = input(("Enter the key to use (0-90) : "))
 	key = int(key)
 	mode = 'decrypt'
-	SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456'
+	SYMBOLS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890 !?.`~@#$%^&*()_+-=[]|;:<>,/'
 	translated = ''
 
 	for symbol in message:
